@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13604" started-at="2023-05-04T19:12:05 IST" finished-at="2023-05-04T19:12:18 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TC_001@13af739]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TC_001@10612ba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Edge_Test" duration-ms="13604" started-at="2023-05-04T19:12:05 IST" finished-at="2023-05-04T19:12:18 IST">
+      <class name="runner.TC_001">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TC_001@10612ba]" name="setUpClass" is-config="true" duration-ms="1237" started-at="2023-05-04T19:12:05 IST" finished-at="2023-05-04T19:12:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1200884]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:runner.TC_001@10612ba]" name="preCondition" is-config="true" duration-ms="8268" started-at="2023-05-04T19:12:06 IST" finished-at="2023-05-04T19:12:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TC_001@10612ba]" name="runScenario" duration-ms="1333" started-at="2023-05-04T19:12:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-04T19:12:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login funtionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:runner.TC_001@10612ba]" name="postCondition" is-config="true" duration-ms="1414" started-at="2023-05-04T19:12:16 IST" finished-at="2023-05-04T19:12:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TC_001@10612ba]" name="tearDownClass" is-config="true" duration-ms="1285" started-at="2023-05-04T19:12:17 IST" finished-at="2023-05-04T19:12:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TC_001 -->
+    </test> <!-- Edge_Test -->
+    <test name="Chrome_Test" duration-ms="13587" started-at="2023-05-04T19:12:05 IST" finished-at="2023-05-04T19:12:18 IST">
+      <class name="runner.TC_001">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TC_001@13af739]" name="setUpClass" is-config="true" duration-ms="1237" started-at="2023-05-04T19:12:05 IST" finished-at="2023-05-04T19:12:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b794e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:runner.TC_001@13af739]" name="preCondition" is-config="true" duration-ms="8372" started-at="2023-05-04T19:12:06 IST" finished-at="2023-05-04T19:12:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TC_001@13af739]" name="runScenario" duration-ms="1552" started-at="2023-05-04T19:12:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-04T19:12:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login funtionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:runner.TC_001@13af739]" name="postCondition" is-config="true" duration-ms="680" started-at="2023-05-04T19:12:16 IST" finished-at="2023-05-04T19:12:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TC_001@13af739]" name="tearDownClass" is-config="true" duration-ms="1683" started-at="2023-05-04T19:12:17 IST" finished-at="2023-05-04T19:12:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TC_001 -->
+    </test> <!-- Chrome_Test -->
+  </suite> <!-- Suite -->
+</testng-results>
